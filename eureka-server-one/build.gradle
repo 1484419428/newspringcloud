@@ -1,0 +1,11 @@
+dependencies {
+    compile("org.springframework.cloud:spring-cloud-starter-netflix-eureka-server")
+    compile("org.springframework.boot:spring-boot-starter")
+    compile("org.springframework.boot:spring-boot-starter-web")
+    compile("org.springframework.boot:spring-boot-starter-actuator")
+    compile("com.suixingpay.starter:suixingpay-starter-logback:$suixingpayStarterVersion") // logback及trace filter
+}
+bootRepackage {
+    enabled = true  // 如果需要打spring boot 可执行jar，需要设置为true, 在spring-cloud.gradle 文件中已默认设置为false
+}
+

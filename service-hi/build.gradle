@@ -1,0 +1,8 @@
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-web")
+    compile("org.springframework.cloud:spring-cloud-starter-zipkin")
+    compile 'io.zipkin.brave:brave:5.5.0'
+}
+bootRepackage {
+    enabled = true  // 如果需要打spring boot 可执行jar，需要设置为true, 在spring-cloud.gradle 文件中已默认设置为false
+}

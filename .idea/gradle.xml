@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="D:/SuiXingPay/gradle/gradle-4.3.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/config-client" />
+            <option value="$PROJECT_DIR$/config-client-mq" />
+            <option value="$PROJECT_DIR$/config-server" />
+            <option value="$PROJECT_DIR$/eureka-client" />
+            <option value="$PROJECT_DIR$/eureka-monitor-client" />
+            <option value="$PROJECT_DIR$/eureka-provider" />
+            <option value="$PROJECT_DIR$/eureka-server" />
+            <option value="$PROJECT_DIR$/eureka-server-one" />
+            <option value="$PROJECT_DIR$/eureka-server-two" />
+            <option value="$PROJECT_DIR$/server-hi" />
+            <option value="$PROJECT_DIR$/service-feign" />
+            <option value="$PROJECT_DIR$/service-hi" />
+            <option value="$PROJECT_DIR$/service-miya" />
+            <option value="$PROJECT_DIR$/service-ribbon" />
+            <option value="$PROJECT_DIR$/service-zuul" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

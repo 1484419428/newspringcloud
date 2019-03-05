@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="eureka-server:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/eureka_server_jar</output-path>
+    <root id="archive" name="eureka-server_jar.jar">
+      <element id="archive" name="eureka-server.jar">
+        <element id="directory" name="META-INF" />
+      </element>
+    </root>
+  </artifact>
+</component>

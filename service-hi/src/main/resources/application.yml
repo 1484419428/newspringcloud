@@ -1,0 +1,7 @@
+server:
+  port: 8886
+spring:
+  zipkin:
+    base-url: http://peer1:8866/eureka/
+  application:
+    name: service-hi
